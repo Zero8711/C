@@ -1,0 +1,5 @@
+﻿  220504-4.c
+C:\Users\KCCI15\source\repos\220504-4\220504-4\220504-4.c(18,37): warning C4047: '함수': 'rsize_t'의 간접 참조 수준이 'char [7]'과(와) 다릅니다.
+C:\Users\KCCI15\source\repos\220504-4\220504-4\220504-4.c(18,26): warning C4024: 'strcpy_s': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\KCCI15\source\repos\220504-4\220504-4\220504-4.c(18,10): error C2198: 'strcpy_s': 호출에 인수가 너무 적습니다.
+C:\Users\KCCI15\source\repos\220504-4\220504-4\220504-4.c(24,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
