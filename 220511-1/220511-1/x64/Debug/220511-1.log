@@ -1,0 +1,7 @@
+﻿  CircularLinkedList.c
+C:\Users\KCCI15\source\repos\220511-1\220511-1\CircularLinkedList.c(9,28): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\KCCI15\source\repos\220511-1\220511-1\CircularLinkedList.c(9,50): warning C4312: '형식 캐스트': 'int'에서 더 큰 'LinkedList_h *'(으)로의 변환입니다.
+C:\Users\KCCI15\source\repos\220511-1\220511-1\CircularLinkedList.c(36,47): warning C4312: '형식 캐스트': 'int'에서 더 큰 'listNode *'(으)로의 변환입니다.
+C:\Users\KCCI15\source\repos\220511-1\220511-1\CircularLinkedList.c(58,47): warning C4312: '형식 캐스트': 'int'에서 더 큰 'listNode *'(으)로의 변환입니다.
+C:\Users\KCCI15\source\repos\220511-1\220511-1\CircularLinkedList.c(79,7): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  220511-1.vcxproj -> C:\Users\KCCI15\source\repos\220511-1\x64\Debug\220511-1.exe
