@@ -3,8 +3,4 @@ C:\Users\KCCI15\source\repos\220511-2\220511-2\DoubleLinkedList.c(9,28): warning
 C:\Users\KCCI15\source\repos\220511-2\220511-2\DoubleLinkedList.c(9,50): warning C4312: '형식 캐스트': 'int'에서 더 큰 'linkedList_h *'(으)로의 변환입니다.
 C:\Users\KCCI15\source\repos\220511-2\220511-2\DoubleLinkedList.c(32,47): warning C4312: '형식 캐스트': 'int'에서 더 큰 'listNode *'(으)로의 변환입니다.
 C:\Users\KCCI15\source\repos\220511-2\220511-2\DoubleLinkedList.c(61,7): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  ex4_4.c
-C:\Users\KCCI15\source\repos\220511-2\220511-2\ex4_4.c(10,8): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\KCCI15\source\repos\220511-2\220511-2\ex4_4.c(14,12): warning C4013: 'insertNode'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  코드를 생성하고 있습니다...
   220511-2.vcxproj -> C:\Users\KCCI15\source\repos\220511-2\x64\Debug\220511-2.exe

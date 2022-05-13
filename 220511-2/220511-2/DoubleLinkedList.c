@@ -52,14 +52,25 @@ void insertNode(linkedList_h* DL, listNode* pre, char* x)
 
 void deleteNode(linkedList_h* DL, listNode* old)
 {
-	if (DL->head == NULL) return;
-	else if (old == NULL) return;
-	else
+	if (DL->head == NULL || old == NULL) return; //공백리스트일때 또는 찾는 노드가 없을 때
+	else if (old == DL->head) //지울 노드가 첫번째 노드일때
+	{
+		DL->head = old->rlink;
+		old->rlink->llink = old->llink;
+	}
+
+	else if (old->rlink == NULL) // 마지막 노드일때
+	{
+		old->llink->rlink = old->rlink;
+		old->llink = old->rlink;
+	}
+
+	else if (old->llink != NULL && old->rlink != NULL) //중간노드일때
 	{
 		old->llink->rlink = old->rlink;
 		old->rlink->llink = old->llink;
-		free(old);
 	}
+	free(old);
 }
 
 listNode* searchNode(linkedList_h* DL, char* x)
